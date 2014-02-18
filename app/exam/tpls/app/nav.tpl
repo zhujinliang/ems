@@ -8,7 +8,8 @@
 <!--头部-->
 <div id="head">
 	<div id="banner">
-		<h1 style="line-height:100px;color:#FFFFFF;">无纸化模拟考试系统</h1>
+	    <div class="span1"><h1 class="gpj_logo"><img src="app/user/styles/img/theme/logo.png" /></h1></div>
+		<div class="span6"><h2 class="gpj_title">二手车评估师模拟考试系统</h2></div>
 	</div>
 </div>
 <!--主体-->

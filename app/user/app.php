@@ -65,7 +65,8 @@ class app
 						'statusCode' => 200,
 						"message" => "操作成功",
 					    "callbackType" => 'forward',
-					    "forwardUrl" => "index.php?".$this->G->defaultApp
+					    //"forwardUrl" => "index.php?".$this->G->defaultApp
+						"forwardUrl" => "index.php?exam-app-basics"
 					);
 					if($this->ev->get('userhash'))
 					exit(json_encode($message));
@@ -147,7 +148,7 @@ class app
 				);
 				exit(json_encode($message));
 			}
-			$id = $this->user->insertUser(array('username' => $username,'usergroupid' => $defaultgroup['groupid'],'userpassword' => md5($args['userpassword']),'useremail' => $email));
+			$id = $this->user->insertUser(array('username' => $username,'usergroupid' => $defaultgroup['groupid'],'userpassword' => md5($args['userpassword']),'useremail' => $email,'usertruename' => $args['usertruename'],'cellphone' => $args['cellphone']));
 			$this->session->setSessionUser(array('sessionuserid'=>$id,'sessionpassword'=>md5($args['userpassword']),'sessionip'=>$this->ev->getClientIp(),'sessiongroupid'=>$defaultgroup['groupid'],'sessionlogintime'=>TIME,'sessionusername'=>$username));
 			$message = array(
 				'statusCode' => 200,
@@ -155,8 +156,15 @@ class app
 			    "target" => "",
 			    "rel" => "",
 			    "callbackType" => 'forward',
-			    "forwardUrl" => "index.php?".$this->G->defaultApp
+			    #"forwardUrl" => "index.php?".$this->G->defaultApp
+				"forwardUrl" => "index.php?exam-app-basics"
 			);
+			
+			//注册后自动关联默认考场
+			$this->basic = $this->G->make('basic','exam');
+			$args = array('obuserid'=>$id,'obbasicid'=>5,'obendtime'=>TIME+365*24*3600,);
+			$this->basic->openBasic($args);
+			
 			exit(json_encode($message));
 		}
 		else

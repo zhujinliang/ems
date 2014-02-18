@@ -13,6 +13,11 @@ define('WP','http://'.$_SERVER['SERVER_NAME'].dirname($_SERVER['SCRIPT_NAME']).'
 else
 define('WP','http://'.$_SERVER['SERVER_NAME']);
 
+
+$localdb='lib/dbconfig.inc.php';
+if(file_exists($localdb))
+include $localdb;
+
 define('DB','pechina');//MYSQL数据库名
 define('DH','localhost');//MYSQL主机名，不用改
 define('DU','root');//MYSQL数据库用户名

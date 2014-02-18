@@ -7,7 +7,7 @@ padding-top:25px;
 margin-right:10px;}
 
 .top {
-background: none repeat scroll 0 0 #ECECEC;
+background: url(../img/theme/header_bg_gpj.png) repeat-x;
 border-bottom: 1px solid #D9D9D9;
 height: 75px;
 padding-top: 25px;
@@ -50,3 +50,11 @@ height: 62px;}
 .logfooter {
 margin-top: 45px;
 text-align: center;}
+
+.gpj_logo{
+	margin-top:-10px;
+	width:74px;
+}
+.gpj_title{
+	color:rgb(255,255,255);
+}

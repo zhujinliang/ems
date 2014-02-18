@@ -516,7 +516,8 @@ function xvars(x){
 	}
 
 	var cellphone = function(x){
-		return core(/^((\(\d{3}\))|(\d{3}\-))?13[0-9]\d{8}?$|15[89]\d{8}?$/gi,x);
+		//return core(/^((\(\d{3}\))|(\d{3}\-))?13[0-9]\d{8}?$|15[89]\d{8}?$/gi,x);
+		return core(/^1[3|4|5|8][0-9]\d{8}$/,x);
 	}
 
 	var url = function(x){

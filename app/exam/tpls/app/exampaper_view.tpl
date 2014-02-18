@@ -4,7 +4,7 @@
 {x2;include:nav}
 <div id="main">
 	<!--主体左侧-->
-	{x2;include:left}
+
 	<!--主体左侧 结束-->
 	<!--主体右侧 -->
 	<div id="right_760" class="right_760">

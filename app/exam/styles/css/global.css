@@ -38,16 +38,24 @@ li{ list-style:none;}
 #nav a{ margin:0 10px;}
 #nav #exam_no{ border:#e8e8e8 1px solid; background:#fffdfb; padding:2px 16px;}
 /*头部*/
-#head{ width:100%; height:106px; background:url(../image/head_bg.jpg) repeat-x; margin-bottom:5px;}
-#head #banner{ width:960px; margin:0 auto;}
+#head{ width:100%; height:106px; background:url(../image/header_bg_gpj.png) repeat-x; margin-bottom:5px;}
+#head #banner{ width:960px; margin:0 auto;padding-top:20px;height:80px;}
+.gpj_logo{
+	margin-top:-10px;
+	width:74px;
+}
+.gpj_title{
+	line-height:60px;
+	color:rgb(255,255,255);
+}
 /*尾部*/
-#footer{ clear:both; font-size:12px; text-align:center; padding:10px;}
+#footer{ clear:both; font-size:12px; text-align:center; padding:10px;margin-top:100px;}
 /*主体左侧*/
-#main{ width:970px; margin:0 auto}
+#main{ width:970px; margin:0 auto;}
 .main_left{ width:210px; float:left;}
 .main_left0{ display:none;}
 /*主体右侧 窄屏*/
-.right_760{ width:760px; float:right;}
+.right_760{ width:760px; margin:0 auto;margin-top:40px;}
 .right_760 .bor_top{ clear:both; height:10px; background:url(../image/right_760_bor_hb.jpg) 0 0; overflow:hidden;}
 .right_760 .bor_mid{ background:url(../image/right_760_bor_mid.jpg) repeat-y; padding:20px 35px; overflow: hidden;}
 .right_760 .bor_bottom{ height:10px; background:url(../image/right_760_bor_hb.jpg) 0 -12px; overflow:hidden;}
@@ -144,6 +152,4 @@ h2.page_title span{ font-weight:normal;}
 #kaoshengxinxi.kaoshengxinxi_t{ width:520px; border:#cecece 1px solid; background:#f2f2f2; position:absolute; left:34%; top:110%;}
 #kaoshengxinxi.kaoshengxinxi_t table{ width:500px;}
 #kaoshengxinxi h4{ height:25px; background:url(../image/tit_bg.jpg) 0 -70px; font-size:12px; padding:8px 0 0 10px;}
-
-
 

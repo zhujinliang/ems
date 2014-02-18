@@ -1,1 +1,1 @@
-<div id="bread"><a href="?exam-app"><img src="app/exam/styles/image/home_btn.jpg" class="float_r"/></a><div id="place"><a href="index.php?exam">模拟考试系统</a></div></div>
+<div id="bread"><div id="place"><a href="#">模拟考试系统</a></div></div>

@@ -1,15 +1,15 @@
 <div class="row-fluid">
 	<div class="container logfooter">
 		<ul class="inline unstyled">
-			<li><a href="http://phpems.net">网站首页</a></li>
+			<li><a href="http://www.gongpingjia.com">网站首页</a></li>
 			<li>|</li>
-			<li><a href="http://phpems.net/bbs/">用户须知</a></li>
+			<li><a href="http://www.gongpingjia.com/about">关于我们</a></li>
 			<li>|</li>
-			<li><a href="http://phpems.net/bbs/">隐私协议</a></li>
+			<li><a href="http://www.gongpingjia.com/terms/">使用条款</a></li>
 			<li>|</li>
-			<li><a href="http://phpems.net/bbs/">网站论坛</a></li>
+			<li><a href="http://www.gongpingjia.com/latest-blog/">官方博客</a></li>
 			<li>|</li>
-			<li>豫ICP备13016752号-1</li>
+			<li>公平价 © 2013 渝ICP备11005614号</li>
 		</ul>
 	</div>
 </div>
