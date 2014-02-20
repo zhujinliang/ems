@@ -241,7 +241,7 @@ class app
 
 	//首页
 	public function index()
-	{
+	{   
 		$action = $this->ev->url(3);
 		switch($action)
 		{
@@ -324,6 +324,7 @@ class app
 			break;
 
 			default:
+			header("location:index.php?exam-app-basics");
 			$this->tpl->assign('basics',$this->data['openbasics']);
 			$this->tpl->display('index');
 			break;

@@ -11,7 +11,7 @@
     	{x2;include:bread}
     	<div class="bor_top"></div>
     	<div class="bor_mid">
-    		<div id="hide_left"><a href="javascript:pr()"></a></div>
+    		<!--<div id="hide_left"><a href="javascript:pr()"></a></div>-->
             <div id="exam_paper">
             <form action="index.php?exam-app-exampaper-score" id="form1" name="form1" method="post">
             <!-- float start-->
@@ -59,14 +59,14 @@
                     <span class="examquestionform" name="formquestion_{x2;v:question['questionid']}" id="formquestion_{x2;v:question['questionid']}" rel="nodo">
                     <div class="qu_option" onMouseOver="this.className='qu_option_hover'" onMouseOut="this.className='qu_option'">
                         {x2;if:v:quest['questsort']}
-                        <span class="font_12 float_r cz">【<a href="javascript:favorquestion('{x2;v:question['questionid']}');">收藏</a>】</span>
+                        <!--<span class="font_12 float_r cz">【<a href="javascript:favorquestion('{x2;v:question['questionid']}');">收藏</a>】</span>-->
                               <p class=" float_l">本题答案：</p>
                         <div id="editor" class="clear">
                         	{x2;eval: $dataid = v:question['questionid']}
                         	{x2;include:plugin_editor}
                         </div>
                         {x2;else}
-                        <span class="font_12 float_r cz">【<a href="javascript:favorquestion('{x2;v:question['questionid']}');">收藏</a>】</span>
+                        <!--<span class="font_12 float_r cz">【<a href="javascript:favorquestion('{x2;v:question['questionid']}');">收藏</a>】</span>-->
 						<div class="option_single" id="radio">
                         	{x2;if:v:quest['questchoice'] == 1 || v:quest['questchoice'] == 4}
 		                        {x2;tree:$selectorder,so,sid}
@@ -107,14 +107,14 @@
                     <span class="examquestionform" name="formquestion_{x2;v:data['questionid']}" id="formquestion_{x2;v:data['questionid']}" rel="nodo">
                     <div class="qu_option" onMouseOver="this.className='qu_option_hover'" onMouseOut="this.className='qu_option'">
                         {x2;if:v:quest['questsort']}
-                        <span class="font_12 float_r cz">【<a href="javascript:favorquestion('{x2;v:data['questionid']}');">收藏</a>】</span>
+                        <!--<span class="font_12 float_r cz">【<a href="javascript:favorquestion('{x2;v:data['questionid']}');">收藏</a>】</span>-->
                         <p class=" float_l">本题答案：</p>
                         <div id="editor" class="clear">
                         	{x2;eval: $dataid = v:data['questionid']}
                         	{x2;include:plugin_editor}
                         </div>
                         {x2;else}
-                        <span class="font_12 float_r cz">【<a href="javascript:favorquestion('{x2;v:data['questionid']}');">收藏</a>】</span>
+                        <!--<span class="font_12 float_r cz">【<a href="javascript:favorquestion('{x2;v:data['questionid']}');">收藏</a>】</span>-->
                         <div class="option_single" id="radio">
                         	{x2;if:v:quest['questchoice'] == 1 || v:quest['questchoice'] == 4}
                             {x2;tree:$selectorder,so,sid}
