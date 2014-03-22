@@ -19,6 +19,13 @@ margin: 0 auto;
 margin-top: 80px;
 background: none repeat scroll 0 0 #F9F9F9;}
 
+.loghead{
+height: auto;
+min-height: 287px;
+background: url("../img/theme/kaoshi.png");
+overflow:hidden;
+border:1px solid #dadada;border-bottom:none;}
+
 .logbox{
 height: auto;
 min-height: 513px;

@@ -148,7 +148,7 @@ class app
 				);
 				exit(json_encode($message));
 			}
-			$id = $this->user->insertUser(array('username' => $username,'usergroupid' => $defaultgroup['groupid'],'userpassword' => md5($args['userpassword']),'useremail' => $email,'usertruename' => $args['usertruename'],'cellphone' => $args['cellphone']));
+			$id = $this->user->insertUser(array('username' => $username,'usergroupid' => $defaultgroup['groupid'],'userpassword' => md5($args['userpassword']),'useremail' => $email,'usertruename' => $args['usertruename'],'cellphone' => $args['cellphone'],'usercompany'=>$args['usercompany']));
 			$this->session->setSessionUser(array('sessionuserid'=>$id,'sessionpassword'=>md5($args['userpassword']),'sessionip'=>$this->ev->getClientIp(),'sessiongroupid'=>$defaultgroup['groupid'],'sessionlogintime'=>TIME,'sessionusername'=>$username));
 			$message = array(
 				'statusCode' => 200,

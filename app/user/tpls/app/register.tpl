@@ -54,7 +54,12 @@
 								<input class="input-xlarge" type="text" name="args[useremail]" datatype="email" needle="needle" msg="请输入真实的邮箱"/><span style="color:red">请输入真实的电子邮箱地址（确保我们能与你取得联系）</span>
 							</div>
 						</div>
-						
+						<div class="control-group">
+							<label class="control-label" for="inputCompany">所在公司：</label>
+							<div class="controls">
+								<input class="input-xlarge" type="text" name="args[usercompany]" datatype="company" needle="needle" msg="请输入所在公司的名称"/><span style="color:red">请输入所在公司的名称（确保我们能与你取得联系）</span>
+							</div>
+						</div>
 						<div class="control-group">
 							<div class="controls">
 								<button class="btn btn-info logbtn" type="submit">立即注册</button>

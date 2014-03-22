@@ -168,10 +168,10 @@
     </div>
     <!--返回顶部 结束-->
     <!--自动保存提示-->
-    <div id="save_prompt">
+    <!--<div id="save_prompt">
     	<h4>自动保存提示</h4>
         <p>系统将每隔<b class="red">5分钟</b>自动保存试卷及答案，答题过程中请勿刷新页面。<br />【<a href="index.php?exam-app-exampaper-sign">查看试题列表</a>】<br />上次保存时间：<span id="lastsavetime">{x2;date:TIME,'H:i:s'}</span></p>
-    </div>
+    </div>-->
     <!--自动保存提示 结束-->
 </div>
 <script type="text/javascript">

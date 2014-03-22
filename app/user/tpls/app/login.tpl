@@ -10,6 +10,9 @@
 </div>
 <div class="row-fluid">
 	<div class="container logcontent">
+	    <div class="loghead">
+		
+		</div>
 		<div class="logbox">
 			<form class="form-horizontal logform" method="post" action="index.php?user-app-login">
 				<fieldset>
