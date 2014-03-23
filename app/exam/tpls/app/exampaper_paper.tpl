@@ -74,7 +74,7 @@
 		                        {x2;if:v:key == v:question['questionselectnumber']}
 		                        {x2;eval: break;}
 		                        {x2;endif}
-		                        <label class="radio inline">{x2;v:so} <input type="radio" name="question[{x2;v:question['questionid']}]" rel="{x2;v:question['questionid']}" value="{x2;v:so}" {x2;if:v:so == $sessionvars['examsessionuseranswer'][v:question['questionid']]}checked{x2;endif}/></label>&nbsp;&nbsp;
+		                        <label class="radio inline" ><input type="radio" name="question[{x2;v:question['questionid']}]" rel="{x2;v:question['questionid']}" value="{x2;v:so}" {x2;if:v:so == $sessionvars['examsessionuseranswer'][v:question['questionid']]}checked{x2;endif}/><span>{x2;v:so}</span></label>&nbsp;&nbsp;
 		                        {x2;endtree}
 	                        {x2;else}
 		                        {x2;tree:$selectorder,so,sid}
