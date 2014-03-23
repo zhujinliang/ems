@@ -47,7 +47,8 @@
                 {x2;if:$sessionvars['examsessionquestion']['questions'][v:quest['questid']] || $sessionvars['examsessionquestion']['questionrows'][v:quest['questid']]}
                 {x2;eval: v:oid++}
                 <span class="questypearea" id="qtarea_{x2;v:quest['questid']}">
-                <h4 class="qu_type">{x2;$ols[v:oid]}、{x2;v:quest['questype']}（{x2;$sessionvars['examsessionsetting']['examsetting']['questype'][v:quest['questid']]['describe']}）</h4>
+                <h4 class="qu_type">{x2;$ols[v:oid]}、{x2;v:quest['questype']}</h4>
+				<!--<h4 class="qu_type">{x2;$ols[v:oid]}、{x2;v:quest['questype']}（{x2;$sessionvars['examsessionsetting']['examsetting']['questype'][v:quest['questid']]['describe']}）</h4>-->
                 {x2;eval: v:tid = 0}
                 {x2;tree:$sessionvars['examsessionquestion']['questions'][v:quest['questid']],question,qnid}
                 {x2;eval: v:tid++}
@@ -151,7 +152,7 @@
             	</span>
                 {x2;endif}
                 {x2;endtree}
-                <div id="amount">全卷已做 <b class="orange" id="yesdonumber">{x2;$donumber}</b> 题 / 共<b class="orange" id="allquestionnumber">0</b>题 剩余 <b class="orange" id="nodonumber">0</b> 题未作答</div>
+                <!--<div id="amount">全卷已做 <b class="orange" id="yesdonumber">{x2;$donumber}</b> 题 / 共<b class="orange" id="allquestionnumber">0</b>题 剩余 <b class="orange" id="nodonumber">0</b> 题未作答</div>-->
                 <div id="btn_exam_paper"><input type="hidden" name="insertscore" value="1"/><input type="button" value="" onClick="javascript:subpaper();"/></div>
           	</form>
           	</div>
