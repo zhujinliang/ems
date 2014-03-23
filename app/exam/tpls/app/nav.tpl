@@ -9,7 +9,7 @@
 <div id="head">
 	<div id="banner">
 	    <div class="span1"><h1 class="gpj_logo"><img src="app/user/styles/img/theme/logo.png" /></h1></div>
-		<div class="span6"><h2 class="gpj_title">二手车评估师模拟考试系统</h2></div>
+		<div class="span6"><h2 class="gpj_title">二手车评估师技能大赛海选</h2></div>
 	</div>
 </div>
 <!--主体-->

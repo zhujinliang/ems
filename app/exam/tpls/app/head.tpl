@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>模拟考试系统</title>
-<meta name="title" content="无纸化模拟考试系统">
-<meta name="description" content="无纸化模拟考试系统,在线考试系统,模拟考试系统">
-<meta name="keywords" content="无纸化模拟考试系统,在线考试系统,模拟考试系统">
+<title>公平价二手车评估师技能大赛海选</title>
+<meta name="title" content="公平价二手车评估师技能大赛海选">
+<meta name="description" content="公平价二手车评估师技能大赛海选,在线考试系统,模拟考试系统">
+<meta name="keywords" content="公平价二手车评估师技能大赛海选,在线考试系统,模拟考试系统">
 <link href="app/core/styles/css/bootstrap.css" rel="stylesheet">
 <link href="app/core/styles/css/layoutit.css" rel="stylesheet">
 <link href="app/exam/styles/css/plugin.css" rel="stylesheet">
