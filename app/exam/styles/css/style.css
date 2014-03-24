@@ -43,12 +43,12 @@
 #answer_note #page{ text-align:right; font-size:12px; margin-top:16px;}
 
 .result_notice {width:690px;height:166px;}
-.result_notice h3{text-align:center;}
-.result_notice .notice-pic-pass{float:left;width:175px;height:166px;background:url(../image/tongguo.png) top center;}
-.result_notice .notice-pic-fail{float:left;width:175px;height:166px;background:url(../image/weitongguo.png) top center;}
+.result_notice h3{margin-left:25px;}
+.result_notice .notice-pic-pass{float:left;width:175px;}
+.result_notice .notice-pic-fail{float:left;width:175px;height:166px;}
 .result_notice .notice-desc{ width:515px;height:166px;float:left;}
 .notice-result {color:rgb(255,0,0);}
-.notice-info {margin:6px 0 0 35px;}
+.notice-info {margin:6px 0 0 25px;}
 .notice-info a{color:rgb(0,0,204);}
 
 .gongpingjia-wechat{position:absolute;width:150px;height:180px;top:5px;right:-50px;background-color:rgb(255,255,255);}

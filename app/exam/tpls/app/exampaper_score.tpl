@@ -19,11 +19,12 @@
     	<div class="bor_mid">
             <div id="hide_left"><a href="javascript:pr()"></a></div>
   	  	  <div id="result">
-            <h2 class="page_title" style="margin-bottom:0px;"><img src="app/exam/styles/image/result_tit.jpg" alt="成绩单" /></h2>
+            <h2 class="page_title" style="margin-bottom:10px;"><img src="app/exam/styles/image/result_tit.jpg" alt="成绩单" /></h2>
             <!--<h1>{x2;$sessionvars['examsession']}</h1>-->
 			{x2;if:$sessionvars['examsessionscore']>=$sessionvars['examsessionsetting']['examsetting']['passscore']}
 			<div class="result_notice">
 				<div class="notice-pic-pass">
+				<img src="app/exam/styles/image/tongguo.png">
 				</div>
 				<div class="notice-desc">
 				<h3 class="notice-result">恭喜您！考试通过，获得复试资格</h3>
@@ -38,6 +39,7 @@
 			{x2;if:$sessionvars['examsessionscore']<$sessionvars['examsessionsetting']['examsetting']['passscore']}
 			<div class="result_notice">
 				<div class="notice-pic-fail">
+				<img src="app/exam/styles/image/weitongguo.png">
 				</div>
 				<div class="notice-desc">
 				<h3 class="notice-result">很遗憾！考试未通过，评估技能还需要提高</h3>
