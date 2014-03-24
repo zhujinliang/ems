@@ -42,7 +42,7 @@
 				<img src="app/exam/styles/image/weitongguo.png">
 				</div>
 				<div class="notice-desc">
-				<h3 class="notice-result">很遗憾！考试未通过，评估技能还需要提高</h3>
+				<h3 class="notice-result">很遗憾！考试未通过，评估技能还需提高</h3>
 				<p class="notice-info">如需帮助，请<strong>扫一扫右侧二维码</strong>关注公平价微信号，
 				或到<a href="http://www.hecct.com" target="_blank">南京市鸿恩评估师培训学校</a>参加培训后再次尝试。
 				</p>
