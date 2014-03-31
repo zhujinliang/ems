@@ -39,7 +39,9 @@
 						</div>
 						<div class="control-group">
 							<div class="controls">
-								<p>请输入正确的用户名和密码登录　如果您还没有帐号，请在此<a href="index.php?user-app-register">注册</a></p>
+								<p>如忘记密码请拨打公平价客服专线400-025-3500，或将您注册时填写的手机号码、</p>
+								<p>身份信息发至公平价邮箱team@gongpingjia.com，我们会尽快帮您处理。</p>
+								<p>如果您还没有帐号，请在此<a href="index.php?user-app-register">注册</a></p>
 							</div>
 						</div>
 					</div>
