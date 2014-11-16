@@ -137,17 +137,18 @@ class app
 				);
 				exit(json_encode($message));
 			}
-			$email = $args['useremail'];
-			$user = $this->user->getUserByEmail($email);
-			if($user)
-			{
-				$message = array(
-					'statusCode' => 300,
-					'errorinput' => 'args[username]',
-					"message" => "邮箱已经被注册"
-				);
-				exit(json_encode($message));
-			}
+			$email = $args['username']."_kaoshi@gongpingjia.com";
+            //$email = $args['useremail'];
+			//$user = $this->user->getUserByEmail($email);
+			//if($user)
+			//{
+			//	$message = array(
+			//		'statusCode' => 300,
+			//		'errorinput' => 'args[username]',
+			//		"message" => "邮箱已经被注册"
+			//	);
+			//	exit(json_encode($message));
+			//}
 			$id = $this->user->insertUser(array('username' => $username,'usergroupid' => $defaultgroup['groupid'],'userpassword' => md5($args['userpassword']),'useremail' => $email,'usertruename' => $args['usertruename'],'cellphone' => $args['cellphone'],'usercompany'=>$args['usercompany']));
 			$this->session->setSessionUser(array('sessionuserid'=>$id,'sessionpassword'=>md5($args['userpassword']),'sessionip'=>$this->ev->getClientIp(),'sessiongroupid'=>$defaultgroup['groupid'],'sessionlogintime'=>TIME,'sessionusername'=>$username));
 			$message = array(
