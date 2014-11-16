@@ -9,7 +9,7 @@
 			<li>|</li>
 			<li><a href="http://www.gongpingjia.com/latest-blog/">官方博客</a></li>
 			<li>|</li>
-			<li>公平价 © 2013 渝ICP备11005614号</li>
+			<li>公平价 © 2014 苏ICP备14023068号</li>
 		</ul>
 	</div>
 </div>
