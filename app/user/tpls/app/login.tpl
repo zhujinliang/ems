@@ -3,16 +3,13 @@
 <div class="row-fluid top">
 	<div class="container">
 		<div class="span1"><h1 class="gpj_logo"><img src="app/user/styles/img/theme/logo.png" /></h1></div>
-		<div class="span6"><h2 class="gpj_title">二手车评估师技能大赛海选</h2></div>
+		<div class="span6"><h2 class="gpj_title">江苏省第二届二手车行业技能大赛</h2></div>
 		<div class="span5">
 		</div>
 	</div>
 </div>
 <div class="row-fluid">
 	<div class="container logcontent">
-	    <div class="loghead">
-		
-		</div>
 		<div class="logbox">
 			<form class="form-horizontal logform" method="post" action="index.php?user-app-login">
 				<fieldset>

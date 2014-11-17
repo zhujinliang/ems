@@ -114,7 +114,7 @@ class app
 				);
 				exit(json_encode($message));
 			}
-			$username = $args['username'];
+			$username = $args['username']."_".$args['usercompany'];
 			foreach($fob as $f)
 			{
 				if(strpos($username,$f) !== false)
@@ -133,7 +133,7 @@ class app
 				$message = array(
 					'statusCode' => 300,
 					'errorinput' => 'args[username]',
-					"message" => "用户已经存在"
+					"message" => "该位评估师已经注册过考试系统,如有疑问请联系现场工作人员."
 				);
 				exit(json_encode($message));
 			}
@@ -158,7 +158,8 @@ class app
 			    "rel" => "",
 			    "callbackType" => 'forward',
 			    #"forwardUrl" => "index.php?".$this->G->defaultApp
-				"forwardUrl" => "index.php?exam-app-basics"
+				#"forwardUrl" => "index.php?exam-app-basics"
+				"forwardUrl" => "index.php?exam-app-exampaper-selectquestions&examid=1"
 			);
 			
 			//注册后自动关联默认考场

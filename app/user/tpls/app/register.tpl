@@ -3,15 +3,13 @@
 <div class="row-fluid top">
 	<div class="container">
 		<div class="span1"><h1 class="gpj_logo"><img src="app/user/styles/img/theme/logo.png" /></h1></div>
-		<div class="span6"><h2 class="gpj_title">二手车评估师技能大赛海选</h2></div>
+		<div class="span6"><h2 class="gpj_title">江苏省第二届二手车行业技能大赛</h2></div>
 		<div class="span5">
 		</div>
 	</div>
 </div>
 <div class="row-fluid">
 	<div class="container logcontent">
-	     <div class="loghead">
-             </div>	
              <div class="logbox">
 			<form class="form-horizontal logform" method="post" action="index.php?user-app-register">
 				<fieldset>
@@ -70,8 +68,6 @@
 						</div>
 						<div class="control-group">
 							<div class="controls">
-								<p style="color:red;">点击“参加考试”即可进入考试系统,如果系统提示用户已经存在,请联系考场老师说明情况,</p>
-                                                                <p style="color:red;">并在真实姓名一栏重新填写您的真实姓名加上一些不易引起重复的数字,如您的出生日期(示例:刘晓宇19800316)</p>
 							</div>
 						</div>
 					</div>

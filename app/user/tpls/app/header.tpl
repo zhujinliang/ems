@@ -3,11 +3,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="title" content="公平价二手车评估师技能大赛海选">
-<meta name="description" content="公平价二手车评估师技能大赛海选">
-<meta name="keywords" content="公平价二手车评估师技能大赛海选">
+<meta name="title" content="江苏省第二届二手车行业技能大赛">
+<meta name="description" content="江苏省第二届二手车行业技能大赛">
+<meta name="keywords" content="江苏省第二届二手车行业技能大赛">
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<title>公平价二手车评估师技能大赛海选</title>
+<title>江苏省第二届二手车行业技能大赛</title>
 <!–[if lt IE9]>
 <script src="app/core/styles/js/html5.js"></script>
 <![endif]–>
