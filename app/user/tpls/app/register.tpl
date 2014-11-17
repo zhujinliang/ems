@@ -3,7 +3,7 @@
 <div class="row-fluid top">
 	<div class="container">
 		<div class="span1"><h1 class="gpj_logo"><img src="app/user/styles/img/theme/logo.png" /></h1></div>
-		<div class="span6"><h2 class="gpj_title">江苏省第二届二手车行业技能大赛</h2></div>
+		<div class="span7"><h2 class="gpj_title">江苏省第二届二手车行业技能大赛</h2></div>
 		<div class="span5">
 		</div>
 	</div>

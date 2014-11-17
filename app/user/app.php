@@ -137,7 +137,7 @@ class app
 				);
 				exit(json_encode($message));
 			}
-			$email = $args['username']."_kaoshi@gongpingjia.com";
+			$email = $args['username']."_".$args['usercompany']."_kaoshi@gongpingjia.com";
             //$email = $args['useremail'];
 			//$user = $this->user->getUserByEmail($email);
 			//if($user)
